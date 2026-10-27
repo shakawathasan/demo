@@ -9,7 +9,8 @@
     <meta property="og:description" content="Tuition and coaching management web app for Bangladesh with Fees Pending, Attendance, Weekly Test Reports, Parent App, Owner Dashboard, bKash payments, and WhatsApp messaging." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/styles.css" />
   </head>
 
   <body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col font-sans antialiased">
@@ -24,7 +25,7 @@
             </button>
             <a href="#fees" class="text-sm sm:text-base font-bold tracking-tight text-blue-900 flex items-center gap-2 min-w-0">
               <span id="header-logo-container" class="shrink-0 flex items-center text-blue-700">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+               <svg width="24" height="24" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
               </span>
               <span id="header-tuition-name" class="truncate font-bold">ShikhoTuition BD</span>
             </a>
@@ -140,6 +141,6 @@
     <!-- Toast Notification Anchor -->
     <div id="toast-container"></div>
 
-    <script type="module" src="/src/js/app.js"></script>
+    <script type="module" src="./src/js/app.js"></script>
   </body>
 </html>
