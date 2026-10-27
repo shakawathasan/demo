@@ -1,0 +1,6 @@
+{
+  "name": "ShikhoTuition BD - Tuition & Coaching Management",
+  "description": "Tuition and coaching management web app for Bangladesh with Fees Pending, Attendance, Weekly Test Reports, Parent App, Owner Dashboard, bKash payments, and WhatsApp messaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
